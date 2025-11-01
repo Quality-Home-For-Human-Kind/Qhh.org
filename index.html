@@ -2,22 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/pfp.png" />
-    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Quality Homes For Human Kind — transitional housing and workforce support for young adults." />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Quality Homes For Human Kind</title>
   </head>
   <body>
     <header id="Header" data-page-type="qhh"></header>
     <script type="module" src="/src/header.js"></script>
-    <main class="m-20">
-      <div class="columns-2 gap-8">
-        <p class="text-4xl">We Are Quality Homes For Human Kind</p>
-        <p class="text-2xl max-w-200">
-          Our Mission is to empowers young adults facing housing and job insecurity by providing secure transitional housing, cultivating a sense of belonging, and building assets for a sustainable career and future.
-        </p>
-        <img src="/IsHere.png" class="h-200">
+
+    <main class="m-20" id="mission">
+      <div class="grid grid-cols-2 gap-4 items-center">
+        <div class="text-block">
+          <h1 class="text-4xl">We Are Quality Homes For Human Kind</h1>
+          <p class="text-2xl max-w-150">
+            Our mission is to empower young adults facing housing and job insecurity by providing secure transitional housing,
+            cultivating a sense of belonging, and building assets for a sustainable career and future.
+          </p>
+        </div>
+        <figure class="hero-figure" aria-hidden="false">
+          <img src="./IsHere.png" alt="Supportive housing and community image" style="max-width:60%; height:auto; object-fit:cover;" />
+          <figcaption class="sr-only">Community-focused transitional housing</figcaption>
+        </figure>
       </div>
     </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container">
+        <p>© Quality Homes For Human Kind</p>
+      </div>
+    </footer>
   </body>
 </html>
