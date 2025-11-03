@@ -3,10 +3,10 @@
 #Header {
   background-color: #81c66c;
   border-bottom: 3px solid #547970;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 
-body {
+#mission {
   background-color: #272b74;
   color: white;
 }
