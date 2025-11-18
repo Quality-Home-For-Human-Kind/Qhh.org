@@ -2,7 +2,7 @@ function Blog() {
   return (
     <div>
       <main>
-        <section className="">why do my balls hurt</section>
+        <section className="">Work in progress Blog</section>
       </main>
     </div>
   );
