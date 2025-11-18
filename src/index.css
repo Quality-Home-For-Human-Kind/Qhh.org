@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent1: #485C11;
+  --color-accent2: #7BF758;
+  --color-accent3: #8E9C78;
+  --color-accent4: #000000;
+  --color-accent5: #6F6F6F;
+  --color-accent6: #929292;
+}
+
+* {
+  font-family: "Inter";
+}
+
